@@ -38,3 +38,35 @@
 + 알파란 투명도를 나타낸다.   
 + 1이면 불투명 0이면 투명이다.
 ### 8. Color space
+> # Week_3
+## Gamma란?
+-------------------
++ gamma란 이미지를 제작했을때 프린터나 스캐너의 밝기의 크기를 나타내는 용어이다.
++ 영상의 휘도 간 상관 관계를 결정하는 수치이다.　　
++ 감마값에 따라 같은 화면이라도 표현되는 밝기 톤의 차이가 느껴진다.
++ 모니터들이 가장 많이 사용하는 color space는 sRGB(non-linear, 8bit, gamma 2.2) 안에서 이뤄진다. sRGB안에서는 gamma correction이라는 것이 작용하는데, 이는 우리가 본 luminance값을 비디오나 사진에서 암호화, 해독하던 방식을 말한다.   
+
+    ![image](https://news.samsungdisplay.com/wp-content/uploads/2017/05/1-32.jpg)   
+### - Gamma가 3D 프로그램에서 어떻게 적용될까?
+ 
+
+HDR을 제외한 텍스쳐 이미지들이나 컬러 피커가 스크린에서 바르게 보일 수 있는 이유는 감마값이 미리 적용되어 있기 때문이다. 하지만 렌더 엔진들은 linear에서 작용하고 있다.
+    
+그렇기 때문에 텍스쳐 이미지들의 gamma 수치를 없애지 않고 linear로 작용하는 엔진에서 렌더한다면 감마가 섞인 결과물이 나오게 될 것이다. 최종 결과물인 텍스쳐 이미지에는 감마가 두배로 적용이 되는 것이다. 내가 예상했던 이미지와 다른 결과물이 나오게 될 것이다.
+## Linear Workflow
+------------------
+
++ 실제 세상의 빛은 linear로 작용, 우리가 보는 빛의 양은 광원들의 빛의 양을 합친 값이다. 즉, 실제 세상에서는 input이 output과 일정, 동등하다. 이를 linear라고 한다.
++ linear workflow는 씬 안의 모든 라이트, 텍스쳐, 머터리얼이 렌더할 때 같은 color space에서 존재함을 보장한다.．　　　　　
++ 이미지를 저장할 때 중요하다.
+
+
+# aces    
+
+![image](http://www.oscars.org/sites/oscars/files/aces_share2.png)
+(https://youtu.be/DX5tQix9NbY)
++ aces란 색상 관리 및 이미지 교환 시스템이다.
++ ACES는 16bit, 32bit, 25stop 이상의 규격을 가지고 있어 현존하는 모든 카메라의 다이내믹 레인지와 컬러 영역을 커버할 수 있다.
++ 이 과정은 IDT, ACES, RRT+ODT 과정을 
+거치게 된다.
+ 
