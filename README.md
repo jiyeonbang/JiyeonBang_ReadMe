@@ -69,4 +69,57 @@ HDR을 제외한 텍스쳐 이미지들이나 컬러 피커가 스크린에서 �
 + ACES는 16bit, 32bit, 25stop 이상의 규격을 가지고 있어 현존하는 모든 카메라의 다이내믹 레인지와 컬러 영역을 커버할 수 있다.
 + 이 과정은 IDT, ACES, RRT+ODT 과정을 
 거치게 된다.
- 
+# Week_4
+# Merge
+-------------------
+atop Ab+B(1-a)   
+average (A+B)/2   
+color-dodge brighten B towards A   
+conjoint-over A+B(1-a)/b,A if a>b   
+copy A
+difference abs(A-B)   
+disjoint-over A+B(1-a)/b, A+B if a+b<1   
+divide A/B, 0 if A<0 and B<0   
+exclusion A+B-2AB   
+from B-A   
+geometric 2AB/(A+B)   
+hard-light multiply if A<.S, screen if A>.5   
+hypot diagonal sqrt(A * A+B * B)   
+in Ab   
+mask Ba   
+matte Aa+B(1-a) (unpremultiplied over)   
+max max(A,B)   
+min min(A,B)   
+minus A-B   
+multiply AB, A if A<0 and B<0    
+out A(1-b)   
+over A+B(1-a)   
+overlay multiply if B<.5, screen if B>.5    
+plus A+B   
+screen A+B-AB if A and B between 0-1, else A if A>B else B    
+soft-light B(2A+B(1-AB))) if AB<1, 2AB otherwise(less extreme than hard-light)   
+stencil B(1-a)   
+under A(1-b)+B   
+xor A(1-b)+B(1-a)   
+
++ A=Input A
++ a=alpha of A
++ B=input B
++ b=alpha of B
+
+## Rotoscoping
+------------
+로토스코핑('roto'라고도 함)은 애니메이션 및 실사 프로젝트 모두에 대한 그래픽 자산을 생성하는 프레임별로 실사 푸티지를 추적하는 것과 관련된 애니메이션 기술이다.   
+ ![image](https://www.foundry.com/sites/default/files/paragraphs/hero-images/Header_nuke_rotoscoping.jpg)
+
++  Zoom in to it on frame 1
++ Go to the draw tool – roto node (‘O’ on the keyboard) – don’t need to drop it in quite yet
++ To the left of the viewer you have additional tools relating to the roto node – selection/points/curve type
++ Choose bezier here, most control
++ We want a closed shape – bezier – click drag a point to change the curve tangent
++ CTRL click only moves 1 handle
++ Move to the end frame 70 (little blue markers indicate a key frame)
++ Select all – draw a box around the roto
++ On frame 70 – LMB into position
++ Zoom in on the bits that don’t match and move into position
+Play it and check it!
