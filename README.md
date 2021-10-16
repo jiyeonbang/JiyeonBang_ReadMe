@@ -125,4 +125,15 @@ xor A(1-b)+B(1-a)
 + Select all – draw a box around the roto
 + On frame 70 – LMB into position
 + Zoom in on the bits that don’t match and move into position
-Play it and check it!
+Play it and check it!  
+
+> # Week_5
+# Croma key
+### - What is Cromakey and how does if work?
+-------------------
+The essentials: What is chroma key and how does it work?
+One of the most-used and time-honored visual effects techniques is chroma key. Simply put, chroma key involves shooting a subject against a solid-color background, and then removing that background in post-production, replacing it with transparency. Then, the subject can be placed in front of any new background.
+
+In other words, chroma key is a method to replace a predefined color, the socalled key color, in filmed material – and insert (digital) content such as graphs, maps and animations or combine it with material from another shot.
+
+The most common key colors used are green and blue. Why these two colors? They are in opposite contrast to the color of the human skin.
