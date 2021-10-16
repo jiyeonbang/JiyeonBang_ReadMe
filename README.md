@@ -37,7 +37,8 @@
 ### 7. Alpha
 + 알파란 투명도를 나타낸다.   
 + 1이면 불투명 0이면 투명이다.
-### 8. Color space
+### 8. Color space   
+   
 > # Week_3
 ## Gamma란?
 -------------------
@@ -68,8 +69,9 @@ HDR을 제외한 텍스쳐 이미지들이나 컬러 피커가 스크린에서 �
 + aces란 색상 관리 및 이미지 교환 시스템이다.
 + ACES는 16bit, 32bit, 25stop 이상의 규격을 가지고 있어 현존하는 모든 카메라의 다이내믹 레인지와 컬러 영역을 커버할 수 있다.
 + 이 과정은 IDT, ACES, RRT+ODT 과정을 
-거치게 된다.
-> # Week_4
+거치게 된다.   
+
+> # Week_4   
 # Merge
 -------------------
 atop Ab+B(1-a)   
@@ -105,11 +107,12 @@ xor A(1-b)+B(1-a)
 + A=Input A
 + a=alpha of A
 + B=input B
-+ b=alpha of B
++ b=alpha of B   
 
 ## Rotoscoping
 ------------
-로토스코핑('roto'라고도 함)은 애니메이션 및 실사 프로젝트 모두에 대한 그래픽 자산을 생성하는 프레임별로 실사 푸티지를 추적하는 것과 관련된 애니메이션 기술이다.   
+로토스코핑('roto'라고도 함)은 애니메이션 및 실사 프로젝트 모두에 대한 그래픽 자산을 생성하는 프레임별로 실사 푸티지를 추적하는 것과 관련된 애니메이션 기술이다.
+
  ![image](https://www.foundry.com/sites/default/files/paragraphs/hero-images/Header_nuke_rotoscoping.jpg)
 
 +  Zoom in to it on frame 1
