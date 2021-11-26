@@ -137,3 +137,17 @@ One of the most-used and time-honored visual effects techniques is chroma key. S
 In other words, chroma key is a method to replace a predefined color, the socalled key color, in filmed material – and insert (digital) content such as graphs, maps and animations or combine it with material from another shot.
 
 The most common key colors used are green and blue. Why these two colors? They are in opposite contrast to the color of the human skin.
+# Explaining the chroma key effect
+크로마 키는 녹색 또는 파란색 화면을 사용하거나 녹색 또는 파란색 페인트를 사용하여 얻을 수 있는 원하는 효과와 가장 관련이 있는 용어이다.
+### 크로마 키 정의
+크로마키 기술이란?
+크로마 키 기술은 이미지에서 특정 색상을 제거하여 이미지의 해당 부분을 교체하는 프로세스이다. 색상은 단색일 수 있으며 가장 일반적으로 파란색 또는 녹색이다. Chroma keying은 이미지에서 단색을 제거하는 곳에서 사용된다.이 기술은 "키잉" 또는 "키아웃"이라고도 한다.
+
+![image](https://i.ytimg.com/vi/r3kpyTVcc64/maxresdefault.jpg)   
+(https://www.youtube.com/watch?v=r3kpyTVcc64&ab_channel=learninglab)
+
+### 크로마 키는 어떻게 작동할까?
+크로마 어려워 보일 수 있지만 실제로는 가장 풀기 쉬운 VFX 중 하나라고 한다.
+
+- 참고 동영상
+(https://www.youtube.com/watch?v=Cw3aXn1lvhM&ab_channel=%EC%98%A4%ED%95%8CTV_OPIM_VFX)
