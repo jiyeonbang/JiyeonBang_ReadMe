@@ -226,6 +226,8 @@ IBK Gizmo node
 
 ## Matte Painting
 ---------------------
+ ![image](https://cdnb.artstation.com/p/assets/images/images/006/143/817/medium/paul-mercer-ancient-civilisations-artstation-challenge-temple-ruins-01-copy.jpg?1496337756)
+ 
 Matte Painting은 디지털 또는 전통적인 페인팅으로 영화 제작을 위한 가상 또는 사실적인 세트를 만드는 것이다. 카메라가 담을 수 없는 가상 공간을 만들 수 있다. 
 
 1800년대에 등장했으며 영화 전체가 촬영된 후 검은색으로 칠해진 유리 스크린에 배경 요소를 통합하는 방식으로 이루어졌다.
@@ -235,3 +237,13 @@ Matte Painting은 디지털 또는 전통적인 페인팅으로 영화 제작을
  [Youtube_Matte Painting Tutorial](https://www.youtube.com/watch?v=1EU7Om5utlM)
 
 # Week_10
+
+## Formats
+-----------------------
+1. jpg
+2. png
+3. dpx
+4. ext
+-이중 exr 포멧으로 전환해야된다.
+- 압축과 호환성이 뛰어남.
+- 무손실 압축 방식이다.(32bit)
