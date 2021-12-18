@@ -128,8 +128,8 @@ xor A(1-b)+B(1-a)
 Play it and check it!  
 
 > # Week_5
-# Croma key
-### - What is Cromakey and how does if work?
+# Chroma key
+### - What is Chromakey and how does if work?
 -------------------
 The essentials: What is chroma key and how does it work?
 One of the most-used and time-honored visual effects techniques is chroma key. Simply put, chroma key involves shooting a subject against a solid-color background, and then removing that background in post-production, replacing it with transparency. Then, the subject can be placed in front of any new background.
