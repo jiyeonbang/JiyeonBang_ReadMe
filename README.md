@@ -181,7 +181,7 @@ Tracking은 포인트들을 파악하는 것이 중요하다.
 
 ### Tracking하는 방법 요약정리.   
 -------------
- ![image](https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdn%2FSL9IA%2FbtqFJqTqUxF%2FpTUV5Snoa1S8gKjhVRVNo1%2Fimg.png){: width="100" height="100"}
+ ![image](https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdn%2FSL9IA%2FbtqFJqTqUxF%2FpTUV5Snoa1S8gKjhVRVNo1%2Fimg.png){: width="300" height="100"}
 
 1. Tracker를 불러와 add track을 해서 기준이 될 수 있는 부분에 놓는다.   
 
