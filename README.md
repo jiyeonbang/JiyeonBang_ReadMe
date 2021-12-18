@@ -204,6 +204,24 @@ Tracking은 포인트들을 파악하는 것이 중요하다.
 -----------
 녹색 화면에서 피사체로 다시 반사되는 빛이다. 녹색 화면이 밝게 켜져 있을 때 빛은 실제로 해당 색상을 피사체에 다시 반사할 수 있다.
 
+### IBK Gizmo, IBK Colour
+-------------
+IBK 키어는 Color picker를 사용하는 대신 입력 이미지만을 사용한다.
+IBK colour에서 patch black 수치만 올려서, 손쉽게 클린플레이트를 만들 수 있다.   
+
+IBK Gizmo node
+* 거의 옵션을 건들지 않음.
+
+* autolevels 사용시 키잉 컨디션이 더 나빠지는 경우가 많음.
+1. (1차) ibk colour 연결 -> 크로마 색상 선택 -> size [1] 변경.->darks green 조절한다.
+2. 1차로 만들어진 ibk colour를 그대로 복사. -> patch black을 조금씩 올려준다.
+3. patch black 수치를 -> [1,2,4,8,16] 순서로 복사 붙여 넣기..[일반적으로]
+4. [1차 colour node 아래 연결] 블랙이 미세하게 남아 있는 부분을 roto작업후, stencil merge 해서 블랙을 없애도록 한다.
+5. roto 아래 clamp를 연결한뒤, [minimum,maximum,minclampto : 0] , [ maxclampto :1] 로 변경한다. 알파 문제 때문에 그렇다고함..
+추가로, maxclampto [enable 활성화]
+
+[출처](https://m.blog.naver.com/PostView.naver?isHttpsRedirect=true&blogId=loveandpic&logNo=221064084942)
+
 # Week_9
 
 ## Matte Painting
