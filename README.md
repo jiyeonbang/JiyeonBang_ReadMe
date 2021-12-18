@@ -152,32 +152,6 @@ The most common key colors used are green and blue. Why these two colors? They a
 - 참고 동영상
 (https://www.youtube.com/watch?v=Cw3aXn1lvhM&ab_channel=%EC%98%A4%ED%95%8CTV_OPIM_VFX)
 
-> # Week_2
-# Color
-## RGB란?
--------------------
-+ RGB컬러는 빛의 혼합으로 모니터와 액정의 빛을 이용한 제품 색상에 기초해 색을 구현하는 모드이다.
-+ 색을 섞을수록 밝아지기 때문에 '가산혼합'이라고 한다.　　　
-+ 일반적으로 RGB는 웹디자인과 화면용 이미지, CD-ROM, 모니터, 조명 등에 사용된다.
-## CMYK란?
-------------------
-+ CMYK는 Cyan, Magenta, Yellow(청록색, 자홍색, 노란색) 3가지를 혼합해 색을 만들어낸다．　　　　　
-+ CMYK는 더하면 더할수록 어두워져 최종적으로 Black이 되는 '감산혼합'을 의미한다. 
-+ RGB가 나타낼 수 있는 색상 수보다 CMYK가 나타낼 수 있는 색상 수는 적다.
-+ CMYK의 색을 모니터에서는 구현할 수 있지만 RGB의 색은 인쇄물에서 구현할 수 없다.
-
-## 빛의 3원색   
- ![image](https://wowpress.co.kr/wow2.0/w_guide/assets/img/g2_2_01.jpg)   
-+ 빨강 - ( R )
-+ 초록 - ( G )
-+ 파랑 - ( B )   
- ![image](https://wowpress.co.kr/wow2.0/w_guide/assets/img/g2_2_02.jpg)
-+ 시안( C )   
-+ 마젠타( M )   
-+ 노랑( Y )   
-+ 검정( k )
-
-### 8. Color space   
 > # Week_6   
 ## Keying   
 -'Keying'이란 비디오 편집 소프트웨어를 사용하여 포스트 프로덕션에서 그린 스크린 배경을 제거하는 프로세스이다. 녹색 화면 배경에 키가 지정되면 완전히 투명해진다. 그런 다음 투명한 영역을 다른 이미지나 비디오로 채울 수 있다.   
