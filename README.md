@@ -241,9 +241,23 @@ Matte Painting은 디지털 또는 전통적인 페인팅으로 영화 제작을
 ## Formats
 -----------------------
 1. jpg
-2. png
-3. dpx
-4. ext
--이중 exr 포멧으로 전환해야된다.
+-JPG는 일반적으로 파일 크기가 작기 때문에 웹 사이트 및 전자 메일에 자주 사용된다. 이것은 JPG가 압축 저장될 때 일부 이미지 품질이 손실된다는 의미이기도 하다.
+'손실' 파일은 이미지의 품질은 복구할 수 없다. JPG 파일은 대개 대역폭 절약에 특히 좋아서 원본 파일의 1/10 크기로 파일을 압축하기 때문에 작은 용량으로 이미지를 저장하기에는 좋은 형식이다.
+
+3. png
+PNG 파일의 시작은 고정된 8바이트의 헤더로 시작한다. PNG(Portable Netword Graphics)는 lossless compression을 하는 raster-graphics* 파일 포맷이며.
+(*raster-graphics: bitmap image로도 불리며, dot matrix data structure를 뜻한다.) 흔히 우리가 움짤로 잘 알고있는 GIF(Graphics Interchange Format) 포맷이 PNG의 전신이라고 할 수 있다. (GIF의 특허 문제로 PNG가 개발됨)
+PNG는 JPEG과 마찬가지로 인터넷 상에 가볍게 전송되는 것을 목표로 디자인되었다.
+하지만 파일의 구조나 압축 등 접근 방식에서 차이가 많이 난다.
+
+5. dpx
+dpx 표준규격은 ANSI/SMP 268M-2003 (DPX Version 2,0)이다.
+특징은 필름스캐너에서 스캔한 이미지에 대한 RAW이미지로 구성되어 있어 각 채널에 대한 컬러농도를 표현하는 방식으로 잘 사용된다.
+일반적인 표준 비디오 파일 형식들은 컬러표현에 있어 부족한 데이터를 가지고 있기 때문에 dpx는 포스트프로덕션 디지털이미지 처리 분야엣 많이 사용된다. 단점은 데이터 용량이 커서 저장공간을 많이 차지한다는 점이다.
+
+7. exr
+-exr 파일 포맷이란 HDR 이미지이다. exr는 이중 exr 포멧으로 전환해야된다.
 - 압축과 호환성이 뛰어남.
 - 무손실 압축 방식이다.(32bit)
+
+ ![image](https://www.openexr.com/images/exr_logo2.jpg)
